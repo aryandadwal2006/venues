@@ -7,7 +7,7 @@ Canonical tracker for research-publication planning across AI, computer science,
 - `AI_Research_Venue_Tracker_Expanded_2027_2028.xlsx` — primary workbook. The **Venue Directory** sheet is the authoritative full catalogue.
 - `tracker-config.json` — venue scopes, required conference list, deadline schema and automation rules.
 - `reminder-log.csv` — one-time notification ledger, keyed by venue, cycle, milestone and deadline.
-- `VENUE_SELECTION.md` — explanation of which venues are core, specialist or conditional targets.
+- `VENUE_SELECTION.md` — explanation of which venues are core, specialist or conditional targets, including ITCS, IPDPS and FM.
 
 ## Source-list distinction
 
