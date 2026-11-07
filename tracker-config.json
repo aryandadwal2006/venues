@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "repository": "aryandadwal2006/venues",
   "workbook_path": "AI_Research_Venue_Tracker_AI_Only_Final.xlsx",
   "reminder_log_path": "reminder-log.csv",
@@ -1231,5 +1231,38 @@
       "Findings": "For NLP venues and any other venue that explicitly offers a Findings-style publication track; confirm applicability and deadline from the official CFP for each venue/cycle. Do not assume a Findings track exists at CVPR/ICCV/ECCV/3DV."
     },
     "journals_submission_model": "Rolling unless the official journal publishes a fixed special-issue deadline."
+  },
+  "row_sorting": {
+    "applies_to": [
+      "Deadline Tracker",
+      "AI-Only"
+    ],
+    "primary_order": [
+      "Conference/journal rows with a future actionable deadline, ascending by earliest date",
+      "Undated future conference cycles (2027 before 2028)",
+      "Rolling journals without a fixed date",
+      "Expired submission cycles at the bottom"
+    ],
+    "active_deadline_fields": [
+      "abstract_or_registration_deadline",
+      "extended_abstract_deadline",
+      "full_paper_deadline",
+      "supplementary_material_deadline",
+      "author_response_or_rebuttal_deadline",
+      "travel_grant_deadline"
+    ],
+    "excludes_from_submission_sort": [
+      "decision_notification",
+      "conference_start",
+      "conference_end",
+      "camera_ready_deadline"
+    ],
+    "expired_row_rule": "If every submission/response/travel-grant deadline is in the past and no eligible future submission milestone remains, move the row to the bottom, apply muted grey styling, and retain it as historical reference. Keep the next announced/unannounced annual cycle row above the archive. Camera-ready and decision dates remain recorded and can still trigger their own reminders but do not keep a closed submission cycle in the active submission queue.",
+    "days_column": "Days to next active deadline; positive for future milestones, negative for the most recent past submission milestone, blank for TBA/rolling rows.",
+    "preserve_manual_fields": [
+      "priority_user_editable",
+      "project_user_editable",
+      "paper_status_user_editable"
+    ]
   }
 }
