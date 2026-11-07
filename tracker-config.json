@@ -628,6 +628,36 @@
       "cycles": [
         "rolling"
       ]
+    },
+    {
+      "full_name": "Innovations in Theoretical Computer Science",
+      "abbreviation": "ITCS",
+      "type": "conference",
+      "research_area": "Theoretical computer science; algorithms; complexity; mathematical foundations",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "IEEE International Parallel and Distributed Processing Symposium",
+      "abbreviation": "IPDPS",
+      "type": "conference",
+      "research_area": "Parallel and distributed computing; HPC; AI systems; accelerators",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "International Symposium on Formal Methods",
+      "abbreviation": "FM",
+      "type": "conference",
+      "research_area": "Formal methods; verification; logic; dependable systems",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
     }
   ],
   "source_distinction": {
@@ -727,7 +757,10 @@
     "ICASSP",
     "WACV",
     "NAACL",
-    "EACL"
+    "EACL",
+    "ITCS",
+    "IPDPS",
+    "FM"
   ],
   "specialist_journal_abbreviations": [
     "Annals of Mathematics",
@@ -804,5 +837,8 @@
     "meaning_of_tba": "Not verified or not announced; never interpret TBA as No.",
     "deadline_rule": "Record the official student travel grant/application deadline. Use a source URL in Notes or the official CFP field.",
     "reminder": "Send one-time ChatGPT notification two calendar days before a confirmed grant application deadline."
-  }
+  },
+  "venue_count": 169,
+  "tracked_conference_count": 95,
+  "specialist_journal_count": 44
 }
