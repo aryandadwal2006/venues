@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2",
   "repository": "aryandadwal2006/venues",
-  "workbook_path": "AI_Research_Venue_Tracker_Expanded_2027_2028.xlsx",
+  "workbook_path": "AI_Research_Venue_Tracker_AI_Only_Final.xlsx",
   "reminder_log_path": "reminder-log.csv",
   "cycles": [
     "2027",
@@ -998,5 +998,238 @@
     "PNAS Nexus"
   ],
   "venue_directory_is_authoritative": true,
-  "venue_inventory_note": "Use the 169-row Venue Directory in the XLSX as the authoritative full inventory; arrays here provide explicit coverage and category lookup."
+  "venue_inventory_note": "Use the 169-row Venue Directory in the XLSX as the authoritative full inventory; arrays here provide explicit coverage and category lookup.",
+  "ai_only_sheet": {
+    "name": "AI-Only",
+    "exact_scope": true,
+    "canonical_venue_count": 38,
+    "cross_list_duplicates": "Deduplicate venues across categories; retain all group memberships on a single venue row per cycle.",
+    "groups": [
+      {
+        "name": "Machine Learning and AI (core set)",
+        "venues": [
+          "ICLR",
+          "NeurIPS",
+          "ICML",
+          "UAI",
+          "AISTATS",
+          "JMLR",
+          "TMLR"
+        ],
+        "subtracks": [
+          "Datasets & Benchmarks"
+        ]
+      },
+      {
+        "name": "Natural Language Processing",
+        "venues": [
+          "ACL",
+          "EMNLP",
+          "EACL",
+          "NAACL",
+          "IJCNLP-AACL",
+          "CL",
+          "TACL"
+        ],
+        "subtracks": [
+          "Findings"
+        ]
+      },
+      {
+        "name": "Language Modeling",
+        "venues": [
+          "COLM"
+        ],
+        "subtracks": []
+      },
+      {
+        "name": "Computer Vision (3DV group)",
+        "venues": [
+          "CVPR",
+          "ICCV",
+          "ECCV",
+          "PAMI",
+          "3DV"
+        ],
+        "subtracks": [
+          "Findings"
+        ]
+      },
+      {
+        "name": "General AI",
+        "venues": [
+          "AAAI",
+          "IJCAI",
+          "JAIR"
+        ],
+        "subtracks": []
+      },
+      {
+        "name": "Robotics",
+        "venues": [
+          "ICRA",
+          "IROS",
+          "RSS",
+          "CoRL"
+        ],
+        "subtracks": []
+      },
+      {
+        "name": "Data Mining",
+        "venues": [
+          "KDD"
+        ],
+        "subtracks": []
+      },
+      {
+        "name": "Learning Theory",
+        "venues": [
+          "COLT"
+        ],
+        "subtracks": []
+      },
+      {
+        "name": "Computer Vision (extended set)",
+        "venues": [
+          "CVPR",
+          "ICCV",
+          "ECCV",
+          "WACV",
+          "ACM Multimedia",
+          "TPAMI",
+          "IJCV"
+        ],
+        "subtracks": []
+      },
+      {
+        "name": "Machine Learning and AI (extended set)",
+        "venues": [
+          "NeurIPS",
+          "ICML",
+          "ICLR",
+          "AAAI",
+          "IJCAI",
+          "JMLR"
+        ],
+        "subtracks": []
+      },
+      {
+        "name": "Robotics (journal-inclusive set)",
+        "venues": [
+          "ICRA",
+          "IROS",
+          "RSS",
+          "CoRL",
+          "IJRR",
+          "T-RO"
+        ],
+        "subtracks": []
+      },
+      {
+        "name": "Computer Graphics",
+        "venues": [
+          "SIGGRAPH",
+          "SIGGRAPH Asia",
+          "ACM TOG",
+          "TVCG"
+        ],
+        "subtracks": []
+      }
+    ],
+    "aliases": {
+      "PAMI": [
+        "PAMI",
+        "TPAMI",
+        "IEEE TPAMI"
+      ],
+      "ACM Multimedia": [
+        "ACM Multimedia",
+        "ACM MM"
+      ],
+      "CL": [
+        "CL",
+        "Computational Linguistics"
+      ],
+      "T-RO": [
+        "T-RO",
+        "IEEE T-RO"
+      ]
+    },
+    "canonical_venue_labels": [
+      "ICLR",
+      "NeurIPS",
+      "ICML",
+      "UAI",
+      "AISTATS",
+      "JMLR",
+      "TMLR",
+      "ACL",
+      "EMNLP",
+      "EACL",
+      "NAACL",
+      "IJCNLP-AACL",
+      "CL",
+      "TACL",
+      "COLM",
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "PAMI / TPAMI",
+      "3DV",
+      "AAAI",
+      "IJCAI",
+      "JAIR",
+      "ICRA",
+      "IROS",
+      "RSS",
+      "CoRL",
+      "KDD",
+      "COLT",
+      "WACV",
+      "ACM Multimedia",
+      "IJCV",
+      "IJRR",
+      "T-RO",
+      "SIGGRAPH",
+      "SIGGRAPH Asia",
+      "ACM TOG",
+      "TVCG"
+    ],
+    "required_columns": [
+      "AI group(s)",
+      "Requested venue label",
+      "Venue",
+      "Full venue name",
+      "Type",
+      "Research area",
+      "Cycle / track",
+      "Abstract / registration deadline",
+      "Extended abstract deadline",
+      "Full paper deadline",
+      "Supplementary deadline",
+      "Rebuttal / response",
+      "Decision notification",
+      "Camera-ready deadline",
+      "Conference dates",
+      "Location",
+      "Deadline timezone",
+      "Submission status",
+      "Days to first deadline",
+      "My priority",
+      "My paper status",
+      "Official CFP / dates URL",
+      "Last verified",
+      "Notes / caveats",
+      "My paper / project",
+      "Travel grant available? (Yes / No / TBA)",
+      "Travel grant deadline",
+      "Special tracks / subtracks to monitor",
+      "Other requested alias(es)"
+    ],
+    "track_monitoring": {
+      "Datasets & Benchmarks": "Track only where explicitly listed in the official CFP or conference submission portal for that cycle; do not assume it exists at every group venue.",
+      "Findings": "For NLP venues and any other venue that explicitly offers a Findings-style publication track; confirm applicability and deadline from the official CFP for each venue/cycle. Do not assume a Findings track exists at CVPR/ICCV/ECCV/3DV."
+    },
+    "journals_submission_model": "Rolling unless the official journal publishes a fixed special-issue deadline."
+  }
 }
