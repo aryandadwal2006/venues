@@ -121,3 +121,12 @@ The Deadline Tracker has two conference columns:
 - Travel grant deadline
 
 Use Yes or No only after checking an official conference/student-funding page. TBA means unknown or not yet announced, not No. Include the source URL in Notes or the CFP source column. The automation issues a one-time notification two calendar days before an officially confirmed grant application deadline.
+
+
+## 8. Additional specialist conferences retained
+
+- **ITCS — Innovations in Theoretical Computer Science:** keep for substantial theory, algorithms, complexity and conceptual TCS contributions. ITCS 2027's official CFP lists abstract and full-paper deadlines of September 2 and 4, 2026, and conference dates January 12–15, 2027. Both submission deadlines have passed as of November 7, 2026. Source: https://itcs-conf.org/
+- **IPDPS — IEEE International Parallel and Distributed Processing Symposium:** keep for parallel and distributed computing, HPC, distributed training, accelerators and AI systems. IPDPS 2027's official CFP lists October 1, 2026 for abstracts and October 8, 2026 for full papers; both have passed. Source: https://www.ipdps.org/ipdps2027/2027-call-for-papers.html
+- **FM — International Symposium on Formal Methods:** keep conditionally for program verification, formal methods, logic, semantics and assurance of dependable systems. The 2027 edition is listed for October 18–22, 2027 in Athens; submission milestones should remain TBA until confirmed in the official CFP. Official event page: https://conf.researchr.org/home/fm-2027
+
+These are additional specialist targets and are not part of the 66-conference csconferences.org list supplied by the user.
