@@ -1,0 +1,629 @@
+{
+  "schema_version": "1.0",
+  "repository": "aryandadwal2006/venues",
+  "workbook_path": "AI_Research_Venue_Tracker_2027_2028.xlsx",
+  "reminder_log_path": "reminder-log.csv",
+  "cycles": [
+    "2027",
+    "2028"
+  ],
+  "conference_deadline_fields": [
+    "abstract_deadline",
+    "extended_abstract_deadline",
+    "paper_deadline",
+    "supplementary_material_deadline",
+    "author_response_or_rebuttal_deadline",
+    "camera_ready_deadline",
+    "special_track_deadline"
+  ],
+  "workbook_columns": [
+    "venue_full_name",
+    "abbreviation",
+    "venue_type",
+    "research_area",
+    "cycle",
+    "abstract_deadline",
+    "extended_abstract_deadline",
+    "paper_deadline",
+    "supplementary_material_deadline",
+    "author_response_or_rebuttal_deadline",
+    "decision_notification",
+    "camera_ready_deadline",
+    "conference_start",
+    "conference_end",
+    "location",
+    "deadline_timezone",
+    "deadline_status",
+    "track",
+    "official_venue_url",
+    "official_cfp_or_submission_url",
+    "last_checked",
+    "priority_user_editable",
+    "project_user_editable",
+    "paper_status_user_editable",
+    "notes"
+  ],
+  "venues": [
+    {
+      "full_name": "Conference on Neural Information Processing Systems",
+      "abbreviation": "NeurIPS",
+      "type": "conference",
+      "research_area": "Machine learning; deep learning; AI",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "International Conference on Machine Learning",
+      "abbreviation": "ICML",
+      "type": "conference",
+      "research_area": "Machine learning; theory",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "International Conference on Learning Representations",
+      "abbreviation": "ICLR",
+      "type": "conference",
+      "research_area": "Deep learning; representation learning",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "Conference on Learning Theory",
+      "abbreviation": "COLT",
+      "type": "conference",
+      "research_area": "Learning theory; mathematical ML",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "International Conference on Artificial Intelligence and Statistics",
+      "abbreviation": "AISTATS",
+      "type": "conference",
+      "research_area": "Statistical machine learning",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "Conference on Uncertainty in Artificial Intelligence",
+      "abbreviation": "UAI",
+      "type": "conference",
+      "research_area": "Probabilistic AI; uncertainty",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "abbreviation": "CVPR",
+      "type": "conference",
+      "research_area": "Computer vision; multimodal AI",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "IEEE/CVF International Conference on Computer Vision",
+      "abbreviation": "ICCV",
+      "type": "conference",
+      "research_area": "Computer vision",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "European Conference on Computer Vision",
+      "abbreviation": "ECCV",
+      "type": "conference",
+      "research_area": "Computer vision",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "Annual Meeting of the Association for Computational Linguistics",
+      "abbreviation": "ACL",
+      "type": "conference",
+      "research_area": "Natural language processing",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "Conference on Empirical Methods in Natural Language Processing",
+      "abbreviation": "EMNLP",
+      "type": "conference",
+      "research_area": "Natural language processing",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics",
+      "abbreviation": "NAACL",
+      "type": "conference",
+      "research_area": "Natural language processing",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "European Chapter of the Association for Computational Linguistics",
+      "abbreviation": "EACL",
+      "type": "conference",
+      "research_area": "Natural language processing",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "International Joint Conference on Artificial Intelligence",
+      "abbreviation": "IJCAI",
+      "type": "conference",
+      "research_area": "General AI; AI for science",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "AAAI Conference on Artificial Intelligence",
+      "abbreviation": "AAAI",
+      "type": "conference",
+      "research_area": "General AI",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "ACM SIGIR International Conference on Research and Development in Information Retrieval",
+      "abbreviation": "SIGIR",
+      "type": "conference",
+      "research_area": "Information retrieval; search",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "abbreviation": "KDD",
+      "type": "conference",
+      "research_area": "Data mining; machine learning; AI for science",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+      "abbreviation": "ECML PKDD",
+      "type": "conference",
+      "research_area": "Machine learning; data mining",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "Robotics: Science and Systems",
+      "abbreviation": "RSS",
+      "type": "conference",
+      "research_area": "Robotics; embodied AI",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "Conference on Robot Learning",
+      "abbreviation": "CoRL",
+      "type": "conference",
+      "research_area": "Robot learning; embodied AI",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "IEEE International Conference on Robotics and Automation",
+      "abbreviation": "ICRA",
+      "type": "conference",
+      "research_area": "Robotics; control",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+      "abbreviation": "IROS",
+      "type": "conference",
+      "research_area": "Robotics; embodied AI",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "Intelligent Systems for Molecular Biology / European Conference on Computational Biology",
+      "abbreviation": "ISMB/ECCB",
+      "type": "conference",
+      "research_area": "Computational biology; protein ML",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "International Conference on Research in Computational Molecular Biology",
+      "abbreviation": "RECOMB",
+      "type": "conference",
+      "research_area": "Computational biology; bioinformatics",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "International Conference on Medical Image Computing and Computer Assisted Intervention",
+      "abbreviation": "MICCAI",
+      "type": "conference",
+      "research_area": "Medical AI; biomedical imaging",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "International Conference on Autonomous Agents and Multiagent Systems",
+      "abbreviation": "AAMAS",
+      "type": "conference",
+      "research_area": "Multi-agent systems",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "ACM Web Conference",
+      "abbreviation": "TheWebConf",
+      "type": "conference",
+      "research_area": "Web; information retrieval; AI",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "ACM International Conference on Web Search and Data Mining",
+      "abbreviation": "WSDM",
+      "type": "conference",
+      "research_area": "Web search; data mining",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "ACM International Conference on Multimedia",
+      "abbreviation": "ACM Multimedia",
+      "type": "conference",
+      "research_area": "Multimodal AI; multimedia",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "ACM Conference on Recommender Systems",
+      "abbreviation": "RecSys",
+      "type": "conference",
+      "research_area": "Recommendation; ranking",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "IEEE International Conference on Acoustics, Speech and Signal Processing",
+      "abbreviation": "ICASSP",
+      "type": "conference",
+      "research_area": "Speech; signal processing; ML",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "IEEE/CVF Winter Conference on Applications of Computer Vision",
+      "abbreviation": "WACV",
+      "type": "conference",
+      "research_area": "Computer vision",
+      "cycles": [
+        "2027",
+        "2028"
+      ]
+    },
+    {
+      "full_name": "Journal of Machine Learning Research",
+      "abbreviation": "JMLR",
+      "type": "journal",
+      "research_area": "Machine learning theory and methodology",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Transactions on Machine Learning Research",
+      "abbreviation": "TMLR",
+      "type": "journal",
+      "research_area": "Machine learning",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Nature Machine Intelligence",
+      "abbreviation": "Nature Machine Intelligence",
+      "type": "journal",
+      "research_area": "Artificial intelligence",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Nature Computational Science",
+      "abbreviation": "Nature Computational Science",
+      "type": "journal",
+      "research_area": "Computational science; AI for science",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Nature",
+      "abbreviation": "Nature",
+      "type": "journal",
+      "research_area": "Multidisciplinary science",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Science",
+      "abbreviation": "Science",
+      "type": "journal",
+      "research_area": "Multidisciplinary science",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Cell",
+      "abbreviation": "Cell",
+      "type": "journal",
+      "research_area": "Life sciences; computational biology",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Nature Biotechnology",
+      "abbreviation": "Nature Biotechnology",
+      "type": "journal",
+      "research_area": "Biotechnology; protein and genomic AI",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Nature Methods",
+      "abbreviation": "Nature Methods",
+      "type": "journal",
+      "research_area": "Scientific methods; computational biology",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Nature Neuroscience",
+      "abbreviation": "Nature Neuroscience",
+      "type": "journal",
+      "research_area": "Neuroscience; computational neuroscience",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Nature Biomedical Engineering",
+      "abbreviation": "Nature Biomedical Engineering",
+      "type": "journal",
+      "research_area": "Biomedical engineering; medical AI",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Nature Medicine",
+      "abbreviation": "Nature Medicine",
+      "type": "journal",
+      "research_area": "Clinical and translational AI",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Nature Communications",
+      "abbreviation": "Nature Communications",
+      "type": "journal",
+      "research_area": "Interdisciplinary science",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Science Advances",
+      "abbreviation": "Science Advances",
+      "type": "journal",
+      "research_area": "Interdisciplinary science",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Proceedings of the National Academy of Sciences",
+      "abbreviation": "PNAS",
+      "type": "journal",
+      "research_area": "Multidisciplinary science",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Cell Systems",
+      "abbreviation": "Cell Systems",
+      "type": "journal",
+      "research_area": "Systems biology",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Nature Cancer",
+      "abbreviation": "Nature Cancer",
+      "type": "journal",
+      "research_area": "Cancer research; AI for oncology",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "abbreviation": "IEEE TPAMI",
+      "type": "journal",
+      "research_area": "Computer vision; pattern recognition",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "International Journal of Computer Vision",
+      "abbreviation": "IJCV",
+      "type": "journal",
+      "research_area": "Computer vision",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "IEEE Transactions on Neural Networks and Learning Systems",
+      "abbreviation": "IEEE TNNLS",
+      "type": "journal",
+      "research_area": "Neural networks; learning systems",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Artificial Intelligence",
+      "abbreviation": "Artificial Intelligence",
+      "type": "journal",
+      "research_area": "General AI",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Machine Learning",
+      "abbreviation": "Machine Learning",
+      "type": "journal",
+      "research_area": "Machine learning methodology",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Pattern Recognition",
+      "abbreviation": "Pattern Recognition",
+      "type": "journal",
+      "research_area": "Pattern recognition; computer vision",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Transactions of the Association for Computational Linguistics",
+      "abbreviation": "TACL",
+      "type": "journal",
+      "research_area": "Natural language processing",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Computational Linguistics",
+      "abbreviation": "Computational Linguistics",
+      "type": "journal",
+      "research_area": "Natural language processing",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Bioinformatics",
+      "abbreviation": "Bioinformatics",
+      "type": "journal",
+      "research_area": "Computational biology",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Genome Biology",
+      "abbreviation": "Genome Biology",
+      "type": "journal",
+      "research_area": "Genomics; computational biology",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Nature Physics",
+      "abbreviation": "Nature Physics",
+      "type": "journal",
+      "research_area": "Physics; AI for physics",
+      "cycles": [
+        "rolling"
+      ]
+    },
+    {
+      "full_name": "Nature Genetics",
+      "abbreviation": "Nature Genetics",
+      "type": "journal",
+      "research_area": "Genetics; genomics",
+      "cycles": [
+        "rolling"
+      ]
+    }
+  ]
+}
