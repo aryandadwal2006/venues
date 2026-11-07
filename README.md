@@ -64,3 +64,9 @@ The AI-Only tab retains submission milestones, cycle, paper status, priority, of
 Monitor **Datasets & Benchmarks** and **Findings** only when the official CFP/submission portal confirms the track for that venue and year. A requested track label is not evidence that every listed venue offers it.
 
 Workbook primary file: `AI_Research_Venue_Tracker_AI_Only_Final.xlsx`.
+
+
+## Sorting and archived cycles
+
+Both `Deadline Tracker` and `AI-Only` are sorted by the earliest future **actionable submission/response/travel-grant deadline**. The active dates appear first in ascending order. Undated 2027/2028 watch cycles follow, then rolling journals, then expired submission cycles in a muted grey archive at the bottom. For an expired cycle, retain its historical dates and ensure the next annual cycle (even if its CFP is still TBA) is present above the archive. Decision notifications, conference dates and camera-ready dates remain recorded but do not keep a closed submission cycle in the active submission queue. Camera-ready dates may still generate their own two-day reminders.
+The `Days to next active deadline` field is positive for future milestones and negative for the most recent past submission milestone; TBA and rolling rows remain blank.
