@@ -53,3 +53,14 @@ The workbook is a research-planning catalogue, not an admissions ranking. A publ
 ## Repository
 
 https://github.com/aryandadwal2006/venues
+
+
+## AI-only worksheet
+
+The workbook contains a separate **AI-Only** sheet. It includes only the 38 canonical venues from the user's explicit AI venue groups, after deduplicating cross-listed aliases such as PAMI/TPAMI. Its category memberships and requested subtrack notes are defined in tracker-config.json. Do not append unrelated CS venues to this tab.
+
+The AI-Only tab retains submission milestones, cycle, paper status, priority, official CFP/source link and both travel-support fields. It also tracks extended abstracts separately from full-paper deadlines.
+
+Monitor **Datasets & Benchmarks** and **Findings** only when the official CFP/submission portal confirms the track for that venue and year. A requested track label is not evidence that every listed venue offers it.
+
+Workbook primary file: `AI_Research_Venue_Tracker_AI_Only_Final.xlsx`.
