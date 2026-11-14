@@ -1,3 +1,4 @@
 venue_abbreviation,cycle,milestone,deadline_date,deadline_time,timezone,reminder_sent_date,official_source_url
 CVPR,2027,Paper registration / enrollment (abstract registration),2026-11-10,23:59,AoE (UTC-12),2026-11-08,https://cvpr.thecvf.com/Conferences/2027/CallForPapers
 NAACL,2027,Industry-track paper submission deadline,2026-11-13,23:59,AoE (UTC-12),2026-11-11,https://2027.naacl.org/calls/industry_track/
+CVPR,2027,Full paper submission deadline,2026-11-16,23:59,AoE (UTC-12),2026-11-14,https://cvpr.thecvf.com/Conferences/2027/CallForPapers
