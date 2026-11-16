@@ -59,3 +59,8 @@
 - AISTATS 2027 official CFP confirms the author-rebuttal period begins Nov 16, with author-reviewer discussion Nov 23–Dec 3, 2026, all deadlines 23:59 AoE; venue is Montreal. Source: https://virtual.aistats.org/Conferences/2027/CallForPapers
 - MICCAI Society's current Upcoming Conferences page gives MICCAI 2027 as Sep 26–Oct 1, 2027 in Auckland (not Sep 27–Oct 1). Source: https://miccai.org/upcoming-conferences/
 - IMC 2027 submission instructions explicitly confirm 11:59 PM AoE (UTC-12) for Cycle 1 and Cycle 2 registration/submission and the Replicability EOI. Source: https://conferences.sigcomm.org/imc/2027/submission-instructions/
+
+
+### Workbook delivery status
+
+- The refreshed six-sheet XLSX was generated and validated as a separate attachment. It was not committed to GitHub in this run; the canonical XLSX path remains absent from main. README, VENUE_SELECTION.md, tracker-config.json, AUDIT_LOG.md and reminder-log.csv were committed and verified. Do not treat the attached workbook as a repository file until a later binary commit is verified.
