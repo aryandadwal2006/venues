@@ -1,6 +1,6 @@
 # Venue Selection Policy
 
-Updated: 2026-11-07
+Updated: 2026-11-16
 
 This document explains what is retained in the publication tracker for a globally competitive CS/AI PhD application strategy.
 
@@ -130,3 +130,8 @@ Use Yes or No only after checking an official conference/student-funding page. T
 - **FM — International Symposium on Formal Methods:** keep conditionally for program verification, formal methods, logic, semantics and assurance of dependable systems. The 2027 edition is listed for October 18–22, 2027 in Athens; submission milestones should remain TBA until confirmed in the official CFP. Official event page: https://conf.researchr.org/home/fm-2027
 
 These are additional specialist targets and are not part of the 66-conference csconferences.org list supplied by the user.
+
+
+## 9. Audit note — 2026-11-16
+
+The canonical inventory remains unchanged at 169 Venue Directory entries: 96 conferences and 73 journals. All 66 user-supplied csconferences.org venues remain mandatory coverage and are distinct from CSRankings. The separate AI-Only worksheet retains 38 canonical identities across 12 groups, including SIGGRAPH Asia as an AI-Only-only entry. No venue was added to or removed from the 169-entry comprehensive directory. Verified pages and incomplete checks are listed in AUDIT_LOG.md; unknown dates and travel-support statuses remain TBA.
