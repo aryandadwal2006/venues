@@ -34,7 +34,7 @@
 - SenSys 2027 May 17–20, Boulder; paper dates TBA. https://sensys.acm.org/2027/
 
 ### Travel support
-- SIGIR 2027 official support page lists Student Support and Travel Awards as TBA: https://sigir2027.org/pages/attend-support. Workbook status remains TBA, not No.
+- SIGIR 2027 official homepage confirms named, fully-funded travel grants for students and researchers. Workbook status is Yes; application deadline remains TBA because the official support page lists Student Support and Travel Awards details as TBA. Sources: https://sigir2027.org/ and https://sigir2027.org/pages/attend-support.
 - No cycle-specific official student travel-support programme and application deadline were confirmed for the other cycles rechecked; statuses remain TBA. No unsupported No values were assigned.
 
 ### Selected journal author pages checked (not all 73)
