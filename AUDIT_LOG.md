@@ -64,3 +64,8 @@
 ### Workbook delivery status
 
 - The refreshed six-sheet XLSX was generated and validated as a separate attachment. It was not committed to GitHub in this run; the canonical XLSX path remains absent from main. README, VENUE_SELECTION.md, tracker-config.json, AUDIT_LOG.md and reminder-log.csv were committed and verified. Do not treat the attached workbook as a repository file until a later binary commit is verified.
+
+
+### Travel-grant correction — 2026-11-16
+
+SIGIR 2027's official homepage confirms named, fully-funded travel grants for students and researchers. The workbook now records Yes, with application deadline TBA; the official registration/support page still lists the student support and travel-award details as TBA. Sources: https://sigir2027.org/ and https://sigir2027.org/pages/attend-support.
